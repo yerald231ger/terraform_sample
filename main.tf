@@ -9,6 +9,7 @@ terraform {
 
 provider "azurerm" {
   features { }
+  
   # subscription_id can be set via ARM_SUBSCRIPTION_ID environment variable
   # or uncomment and set here: subscription_id = "your-subscription-id"
 }
